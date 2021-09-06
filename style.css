@@ -1,0 +1,255 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --dark-background: rgba(0, 0, 0, 0.5);
+    --orange: #ff7300;
+}
+
+body {
+    background: url(assets/comp&coffeedark.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+#profile-pic {
+    width: 130px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: 10px 0px 0px 10px;
+}
+
+.wrapper {
+    display: flex;
+    position: relative;
+}
+
+.sidebar {
+    margin-top: 9%;
+    width: 150px;
+    height: 65%;
+    background: var(--dark-background);
+    position: fixed;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    backdrop-filter: blur(5px);
+}
+
+.sidebar h1 {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: #ffe6bf;
+}
+
+.sidebar li {
+    padding: 15px;
+}    
+
+.sidebar li a {
+  color: #ffe6bf;
+  display: block;
+}
+
+.sidebar .fas  {
+  width: 25px;
+  color: #ffe6bf;
+}
+
+.sidebar li:hover {
+  background-color: var(--orange);
+}
+    
+.sidebar li:hover a {
+    color: #fff;
+}
+ 
+.social-media {
+  position: absolute;
+  bottom: 15px;
+  left: 16%;
+  display: flex;
+}
+
+.social-media a {
+  display: block;
+  width: 40px;
+  background: var(--orange);
+  height: 40px;
+  line-height: 45px;
+  text-align: center;
+  margin: 0 5px;
+  color: #fff;
+  border-radius: 5px;
+}
+  
+.intro {
+    font-size: 58px;
+    width: 900px;
+    height: 300px;
+    position: absolute;
+	top:0;
+	bottom: 0;
+	left: 15%;
+	right: 0;
+    margin: auto;
+}
+
+.up-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    font-size: 58px;  
+    color: #fff;
+    z-index: 100;
+}
+
+.up-icon:hover {
+    color: var(--orange);
+    transform: scale(1.2);
+}
+
+/* .hide {
+    display: none;
+} */
+
+.down-icon {
+    margin-left: 35%;
+    color: #fff;
+}
+
+.down-icon:hover {
+    color: var(--orange);
+    transform: scale(1.2);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+   
+#about {
+    margin-top: 100%;
+    margin-left: 18%;
+    width: 1125px;
+    height: 700px;
+    display: flex;
+    justify-content: flex-end;
+} 
+
+#hr1 {
+    width: 30%;
+    height: 0.1px;
+    border: 0.1px solid white;
+    position: absolute;
+    margin: 145px 55px 0px 0px;
+}
+
+#about h2 {
+    font-size: 38px;
+    margin: 80px 30px 0px 0px;
+}
+
+#about-p {
+    font-size: 18px;
+    width: 325px;
+    position: absolute;
+    margin: 160px 50px 0px 0px;
+}
+
+#about img {
+    height: 300px;
+    position: absolute;
+    top: 60px;
+    left: -300px;
+    border: 2px solid white;
+    transform: rotate(-5deg);
+}
+
+#bg-box {
+    height: 300px;
+    width: 225px;
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.1);
+    position: absolute;
+    top: 50px;
+    left: -300px;
+    transform: rotate(3deg);
+    z-index: -1;
+}
+
+#skills {
+    position: absolute;
+    top: 0px;
+    left: -750px;
+}
+
+#hr2 {
+    width: 65%;
+    height: 0.1px;
+    border: 0.1px solid white;
+    margin: 0px 0px 10px 20px;
+}
+
+#skills h3 {
+    font-size: 38px;
+}
+
+#skills ul {
+    font-size: 24px;
+}
+
+#skills li {
+    margin-bottom: 6px;
+}
+
+.down-icon2 {
+    position: absolute;
+    margin-top: 600px;
+    margin-right: 600px;
+    color: #fff;
+    font-size: 58px;
+}
+
+.down-icon2:hover {
+    color: var(--orange);
+    transform: scale(1.2);
+}
+
+#portfolio {
+    margin-top: 100%;
+    padding-bottom: 25%;
+    text-align: center;
+} 
+
+#portfolio {
+    margin-left: 125px;
+}
+
+.work {
+    margin: 50px 30px 0px 30px;
+    display: inline-block;
+    width: 350px;
+    height: 275px;
+    border: 1px solid #ff7300;
+    border-radius: 15px;
+}
+
+#bottom-foot {
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    font-size: 22px;
+    text-align: center;
+    background-color: var(--dark-background);
+    backdrop-filter: blur(5px);
+}
