@@ -19,6 +19,8 @@ body {
     background-size: cover;
     font-family: 'Poppins', sans-serif;
     color: #fff;
+    max-height: 100vh;
+    overflow: hidden;
 }
 
 #profile-pic {
@@ -130,6 +132,7 @@ body {
 
 .down-icon {
     margin-left: 35%;
+    display: inline-block;
     color: #fff;
 }
 
@@ -247,7 +250,7 @@ html {
     height: 275px;
     border: 1px solid #fff;
     border-radius: 15px;
-    background-color: rgb(37, 37, 37);
+    background-color: rgba(24, 24, 24, 0.7);
     overflow: hidden;
     color: #fff;
     text-decoration: none;
