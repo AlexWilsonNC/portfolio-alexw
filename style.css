@@ -322,20 +322,19 @@ html {
 
 #meme {
     width: 340px;
-    margin-left: 600px;
     border: 2px solid white;
-    transform: rotate(-5deg);
+    transform: rotate(-6deg);
     z-index: 5;
 }
 
 #bg-box2 {
-    height: 250px;
+    height: 240px;
     width: 340px;
     margin-left: 600px;
-    margin-top: -250px;
     border: 2px solid white;
     background-color: rgba(255, 255, 255, 0.1);
     transform: rotate(3deg);
+    z-index: -5;
 }
 
 #bottom-foot {
