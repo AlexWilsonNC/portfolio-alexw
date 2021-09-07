@@ -8,6 +8,7 @@
 :root {
     --dark-background: rgba(0, 0, 0, 0.5);
     --orange: #ff7300;
+    --soft-orange: #ffe6bf;
 }
 
 body {
@@ -48,7 +49,7 @@ body {
     font-size: 16px;
     margin-top: 15px;
     margin-bottom: 5px;
-    color: #ffe6bf;
+    color: var(--soft-orange);
 }
 
 .sidebar li {
@@ -56,13 +57,13 @@ body {
 }    
 
 .sidebar li a {
-  color: #ffe6bf;
+  color: var(--soft-orange);
   display: block;
 }
 
 .sidebar .fas  {
   width: 25px;
-  color: #ffe6bf;
+  color: var(--soft-orange);
 }
 
 .sidebar li:hover {
@@ -90,6 +91,11 @@ body {
   margin: 0 5px;
   color: #fff;
   border-radius: 5px;
+}
+
+.social-media a:hover {
+    color: black;
+    background: #fff;
 }
   
 .intro {
@@ -180,7 +186,7 @@ html {
     border: 2px solid white;
     background-color: rgba(255, 255, 255, 0.1);
     position: absolute;
-    top: 50px;
+    top: 55px;
     left: -300px;
     transform: rotate(3deg);
     z-index: -1;
@@ -235,12 +241,101 @@ html {
 }
 
 .work {
-    margin: 50px 30px 0px 30px;
+    margin: 25px 30px 0px 30px;
     display: inline-block;
     width: 350px;
     height: 275px;
-    border: 1px solid #ff7300;
+    border: 1px solid #fff;
     border-radius: 15px;
+    background-color: rgb(37, 37, 37);
+    overflow: hidden;
+    color: #fff;
+    text-decoration: none;
+}
+
+.work:hover {
+    box-shadow: 0px 0px 30px 2px #ff7300;
+}
+
+.work img {
+    height: 170px;
+}
+
+.work h4 {
+    font-size: 22px;
+}
+
+.down-icon3 {
+    position: absolute;
+    margin-left: -75px;
+    color: #fff;
+    font-size: 58px;
+}
+
+.down-icon3:hover {
+    color: var(--orange);
+    transform: scale(1.2);
+}
+
+#contact {
+    margin-top: 100%;
+    margin-left: 18%;
+    width: 1125px;
+    height: 650px;
+    /* background-color: #ff7300; */
+} 
+
+#contact h5 {
+    font-size: 38px;
+    position: relative;
+    top: 125px;
+}
+
+#hr3 {
+    width: 30%;
+    height: 0.1px;
+    border: 0.1px solid white;
+    margin: 0px 0px 10px 20px;
+    position: relative;
+    top: 125px;
+}
+
+#email {
+    position: relative;
+    top: 160px;
+    font-size: 30px;
+}
+
+#phone {
+    position: relative;
+    top: 200px;
+    left: 50px;
+    font-size: 30px;
+}
+
+#address {
+    position: relative;
+    top: 240px;
+    left: 100px;
+    font-size: 30px;
+}
+
+#meme {
+    width: 340px;
+    margin-left: 600px;
+    border: 2px solid white;
+    transform: rotate(-5deg);
+    z-index: 5;
+}
+
+#bg-box2 {
+    height: 250px;
+    width: 340px;
+    margin-left: 600px;
+    margin-top: -250px;
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.1);
+    transform: rotate(3deg);
 }
 
 #bottom-foot {
