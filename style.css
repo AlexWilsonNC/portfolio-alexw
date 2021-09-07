@@ -324,6 +324,7 @@ html {
     width: 340px;
     border: 2px solid white;
     transform: rotate(-6deg);
+    margin-left: -600px;
 }
 
 #bg-box2 {
