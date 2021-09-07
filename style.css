@@ -322,12 +322,12 @@ html {
 
 #meme {
     width: 340px;
-    border: 2px solid white;
-    transform: rotate(-6deg);
-    margin-left: -600px;
+    border: 5px solid white;
+    transform: rotate(2deg);
+    margin-left: 600px;
 }
 
-#bg-box2 {
+/* #bg-box2 {
     height: 240px;
     width: 340px;
     margin-left: 600px;
@@ -335,7 +335,7 @@ html {
     background-color: rgba(255, 255, 255, 0.1);
     transform: rotate(3deg);
     z-index: -5;
-}
+} */
 
 #bottom-foot {
     bottom: 0;
