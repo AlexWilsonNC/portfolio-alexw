@@ -9,5 +9,7 @@ Portfolio (updated)
 
 [Link to linkedin Profile](https://www.linkedin.com/in/alexander-wilson-5661b6218/)
 
+[Link to Resume](https://docs.google.com/document/d/1yIWd8GW9eknvfye1ZFNrF3guhgGrJsjz0ZhJG1B64mU/edit?usp=sharing)
+
 ## Screenshot
 ![screenshot](./assets/capture.JPG)
